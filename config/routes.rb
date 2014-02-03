@@ -5,10 +5,12 @@ TarotCards::Application.routes.draw do
   # get "users/show"
   # get "users/create"
 
-
+ get '/cards/random', to: 'cards#random', as: 'random_card'
   resources :cards, :users, :sessions
 
   root to: 'cards#index'
+ 
+
 
   get '/signup' => 'users#new'
   match '/signout', to: 'sessions#destroy', via: :delete
