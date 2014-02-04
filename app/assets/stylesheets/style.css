@@ -3,13 +3,13 @@
 	width: 75%;
 	margin-left: auto;
 	margin-right: auto;
-	border: solid 1px black;
-	background-color: #9900CC;
+	border-radius: 10px;
 	color:#300000;
 	text-align: center;
 	font-size: 28px;
-	border-radius: 5px;
-	margin-top: 50px;
+	background-image: url('http://i1.ytimg.com/vi/hvXL-YLRq60/maxresdefault.jpg')
+
+
 }
 
 .random{
@@ -35,3 +35,8 @@
 	border-radius: 5px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+}
+.cover{
+	/*background-image:url('http://i1.ytimg.com/vi/hvXL-YLRq60/maxresdefault.jpg');
+	background-size: contain;*/
+}
