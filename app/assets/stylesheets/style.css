@@ -9,7 +9,7 @@
 	text-align: center;
 	font-size: 28px;
 	border-radius: 5px;
-	margin-top: 150px;
+	margin-top: 50px;
 }
 
 .random{
@@ -20,6 +20,18 @@
 	text-align: center;
 	font-size: 28px;
 	border-radius: 5px;
-	margin-top: 150px;
-
+	margin-top: 20px;
 }
+.card{
+	padding: 10px;
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid 1px black;
+	background-color: #9900CC;
+	color:#300000;
+	text-align: center;
+	font-size: 28px;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
