@@ -1,5 +1,5 @@
 .main{
-	padding: 50px;
+	padding: 20px;
 
 	margin-left: auto;
 	margin-right: auto;
@@ -16,6 +16,7 @@ background-image: url('http://www.mystic-tarot.net/wp-content/uploads/2012/10/st
 body {
 	background-image: url('http://sathyasaimemories.files.wordpress.com/2011/10/mystic-mountaintop.jpg');
 	background-size: cover;
+	color:#CCFFFF;
 }
 
 .random{
@@ -69,17 +70,26 @@ button{
   border-radius: 5px;
   margin: 15px;
 }
-a:hover
-{ 
-color:purple;
-}
+a:hover{color:purple;}
+
+a:link {text-decoration:none;}
+
 .index_text{
-	margin: 30px;	
+	margin: 20px;	
 }
 .container{
   background-color: blue;
   background-size: cover;
 }
+.signin{color: white;}
+
+.navbar{
+	background-color: #6666CC;
+}
+
+
+
+
 
 
 
