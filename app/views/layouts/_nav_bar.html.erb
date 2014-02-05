@@ -23,6 +23,7 @@
       <p class="navbar-text">
         <%= link_to "Sign out", signout_path, method: "delete" %>
       </p>
+
     <% else %>
       <p class="navbar-text">
         <%= link_to "Sign up", signup_path %>
@@ -30,6 +31,7 @@
       <p class="navbar-text">
         <%= link_to "Sign in", signin_path %>
       </p>
+      
     <% end %>
   </div>
   
