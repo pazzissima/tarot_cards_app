@@ -3,8 +3,30 @@
   	  <h2>My Account</h2>
       <h3>Name: <font color=#990000><%= @user.name %></font></h3>
       <h3>Email: <font color=#990000><%= @user.email %></font></h3>
-      <center><h3>Your Cards is: <%= @card.name %></h3></center>
-      <%= @card.description %>
+      <center><h3>Your Card is: <font color=#990000><%= @card.name %></font></h3></center>
+      <%= @card.description %><a href="javascript: void(0)" onclick="window.open('http://www.psychic-revelation.com/reference/q_t/tarot/tarot_cards/', 'windowname1', 'width=900, height=600'); 
+   	  return false;"> (Get more information here)</a>
+<br>
+<br>
+      <center><h5>Want to know more? Click here for a random quote of the day</h5></center>
+
+
+    <iframe width="230" 
+  		height="165"
+  		frameborder="0"
+  		scrolling="no"       
+  		src="http://iheartquotes.com/api/v1/random?format=html&max_lines=4&max_characters=320&width=225&height=165">
+		<a href="http://iheartquotes.com/fortune/random">Random Quote</a>
+	</iframe> 
+
+
+	<script type="text/javascript" src="http://www.brainyquote.com/link/quotebr.js"></script>
+<small><i><a href="http://www.brainyquote.com/quotes_of_the_day.html" target="_blank">more Quotes</a></i></small>
+<br>
+
+
+
+
 
   </aside>
 </div>
