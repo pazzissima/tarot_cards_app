@@ -5,7 +5,7 @@ Here is your card!<br>
 
 <div class="card"><%= @random_card.name %></div>
 
-
-<img src="/assets/<%= @random_card.image %>" alt="<%= @random_card.name %>" height="400" width="240"></a>
+<!-- image helper -->
+<%= image_tag @random_card.image, alt: @random_card.name, height: 400, width: 240 %>
 </div>
 

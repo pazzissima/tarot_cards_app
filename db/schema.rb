@@ -13,6 +13,9 @@
 
 ActiveRecord::Schema.define(version: 20140203174228) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "cards", force: true do |t|
     t.string   "name"
     t.text     "description"
@@ -30,6 +33,6 @@ ActiveRecord::Schema.define(version: 20140203174228) do
     t.string   "remember_token"
   end
 
-  add_index "users", ["remember_token"], name: "index_users_on_remember_token"
+  add_index "users", ["remember_token"], name: "index_users_on_remember_token", using: :btree
 
 end
