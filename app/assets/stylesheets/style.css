@@ -68,14 +68,22 @@ button{
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.49);
   -webkit-font-smoothing: antialiased;
   border-radius: 5px;
-  margin: 15px;
+  margin: 5px;
 }
 a:hover{color:purple;}
 
 a:link {text-decoration:none;}
 
 .index_text{
-	margin: 20px;	
+  color: rgba(180,255,255,1);
+  background-color: black;
+  background: -webkit-linear-gradient(bottom, rgba(0,10,10,1), rgba(0,10,10,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,10,10,1), rgba(0,10,10,.4));
+  padding: 10px;
+  line-height: 24px;
+  text-align: justify;
+  margin: 0 30px 30px 30px;
+  border-radius: 5px;
 }
 .container{
   background-color: blue;
@@ -85,6 +93,17 @@ a:link {text-decoration:none;}
 
 .navbar{
 	background-color: #6666CC;
+}
+.show_user{
+	  color: rgba(180,255,255,1);
+  background-color: black;
+  background: -webkit-linear-gradient(bottom, rgba(0,10,10,1), rgba(0,10,10,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,10,10,1), rgba(0,10,10,.4));
+  padding: 10px;
+  line-height: 24px;
+  text-align: justify;
+  margin: 20px 30px 10px 30px;
+  border-radius: 5px;
 }
 
 

@@ -3,10 +3,10 @@
   	  <h2>My Account</h2>
       <h3>Name: <font color=#990000><%= @user.name %></font></h3>
       <h3>Email: <font color=#990000><%= @user.email %></font></h3>
-      <center><h3>Your Card is: <font color=#990000><%= @card.name %></font></h3></center>
+      <div class="show_user"><center><h3>Your Card is: <font color=#990000><%= @card.name %></font></h3></center>
       <%= @card.description %>
       <a href="javascript: void(0)" onclick="window.open('http://www.psychic-revelation.com/reference/q_t/tarot/tarot_cards/', 'windowname1', 'width=900, height=600'); 
-   	  return false;"> (Get more information here)</a>
+   	  return false;"> (Get more information here)</a></div>
 <br>
 <br>
       <a href="javascript:unhide('to_hide');"><center><h5>Want to know more? Click here for a random quote of the day</h5></center></a>
