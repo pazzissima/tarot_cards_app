@@ -1,21 +1,16 @@
 .main{
 	padding: 20px;
-
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 10px;
 	color: purple;
 	text-align: center;
 	font-size: 28px;
-	background-size: contain;
-
 }
-/*
-background-image: url('http://www.mystic-tarot.net/wp-content/uploads/2012/10/star-cards1.gif');
-*/
+
 body {
 	background-image: url('http://sathyasaimemories.files.wordpress.com/2011/10/mystic-mountaintop.jpg');
-	background-size: cover;
+	background-size: 100% auto;
 	color:#CCFFFF;
 }
 
@@ -82,13 +77,10 @@ a:link {text-decoration:none;}
   padding: 10px;
   line-height: 24px;
   text-align: justify;
-  margin: 0 30px 30px 30px;
+  margin: 0 30px 20px 30px;
   border-radius: 5px;
 }
-.container{
-  background-color: blue;
-  background-size: cover;
-}
+
 .signin{color: white;}
 
 .navbar{
