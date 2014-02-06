@@ -3,8 +3,8 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find(params[:id])
-    @card = session[:random_card]
-   
+    @card = Card.find(session[:random_card_id])
+
   end
 
   def new

@@ -13,7 +13,7 @@ end
 def random
 	offset = rand(Card.count)
 	@random_card = Card.first(:offset => offset)
-	session[:random_card] = @random_card
+	session[:random_card_id] = @random_card.id
 end
 
 
