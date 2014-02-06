@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.0.2'
 gem 'bootstrap-sass', '~> 3.0.3.0'
-gem 'sqlite3'
+gem 'pg'
 gem 'sass-rails', '~> 4.0.0'
 
 # Use Uglifier as compressor for JavaScript assets
@@ -34,7 +34,10 @@ gem 'bcrypt-ruby', '~> 3.1.2'
 
 group :development do
   gem 'pry'
+
 end
+  gem 'rails_12factor', group: :production
+  ruby "2.0.0"
 # Use unicorn as the app server
 # gem 'unicorn'
 
