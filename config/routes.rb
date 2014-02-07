@@ -6,6 +6,7 @@ TarotCards::Application.routes.draw do
   # get "users/create"
 
  get '/cards/random', to: 'cards#random', as: 'random_card'
+ get '/cards/about', to: 'cards#about', as: 'about'
   resources :cards, :users, :sessions
 
   root to: 'cards#index'
